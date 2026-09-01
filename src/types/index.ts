@@ -10,15 +10,6 @@ export interface MegaMenuColumn {
   links: NavLink[]
 }
 
-export interface MegaMenuItem {
-  label: string
-  icon: LucideIcon
-  description: string
-  href: string
-  columns?: MegaMenuColumn[]
-  featured?: MegaMenuItem
-}
-
 export interface ServiceCategory {
   id: string
   title: string

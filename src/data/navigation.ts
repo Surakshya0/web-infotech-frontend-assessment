@@ -1,30 +1,46 @@
-import { Rocket, Sparkles } from 'lucide-react'
-import type { MegaMenuItem } from '../types'
+import type { NavLink, MegaMenuColumn } from '../types'
 
 /**
- * Seed data for the header navigation. The mega menu will be
- * built and expanded in the Header section step.
+ * Top-level navigation items. Services opens the mega menu,
+ * the rest are simple links.
  */
-export const megaMenuData: MegaMenuItem[] = [
+export const navItems: NavLink[] = [
+  { label: 'Home', href: '#' },
+  { label: 'Services', href: '#services' },
+  { label: 'About', href: '#' },
+  { label: 'Contact', href: '#' },
+]
+
+/**
+ * Three columns of service categories shown in the Services
+ * mega menu and the mobile Services submenu.
+ */
+export const servicesColumns: MegaMenuColumn[] = [
   {
-    label: 'Services',
-    href: '#services',
-    icon: Sparkles,
-    description: 'Browse all of our services',
-    columns: [
-      {
-        title: 'Digital',
-        links: [
-          { label: 'Web Development', href: '#services' },
-          { label: 'App Development', href: '#services' },
-        ],
-      },
+    title: 'Digital & Design',
+    links: [
+      { label: 'Web Development', href: '#services' },
+      { label: 'App Development', href: '#services' },
+      { label: 'Graphic Design', href: '#services' },
+      { label: 'Digital Marketing', href: '#services' },
     ],
   },
   {
-    label: 'How it Works',
-    href: '#how-it-works',
-    icon: Rocket,
-    description: 'Get started in three steps',
+    title: 'Home & Lifestyle',
+    links: [
+      { label: 'Repairs & Maintenance', href: '#services' },
+      { label: 'Cleaning', href: '#services' },
+      { label: 'Beauty & Salon', href: '#services' },
+      { label: 'Moving & Delivery', href: '#services' },
+    ],
+  },
+  {
+    title: 'Business & More',
+    links: [
+      { label: 'Consulting', href: '#services' },
+      { label: 'Legal Services', href: '#services' },
+      { label: 'Photography', href: '#services' },
+      { label: 'Personal Training', href: '#services' },
+    ],
   },
 ]

@@ -2,9 +2,7 @@ import type { ReactNode } from 'react'
 
 /**
  * Container
- * Reusable layout wrapper that centers content and applies
- * consistent horizontal padding. Responsive padding will be
- * refined when we build the sections.
+ * Centers content and applies consistent responsive horizontal padding.
  */
 interface ContainerProps {
   children: ReactNode
@@ -12,5 +10,9 @@ interface ContainerProps {
 }
 
 export default function Container({ children, className = '' }: ContainerProps) {
-  return <div className={className}>{children}</div>
+  return (
+    <div className={`mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 ${className}`}>
+      {children}
+    </div>
+  )
 }

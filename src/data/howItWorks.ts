@@ -1,9 +1,6 @@
-import { Search, UserCheck } from 'lucide-react'
+import { CalendarCheck, Search, UserCheck } from 'lucide-react'
 import type { HowItWorksStep } from '../types'
 
-/**
- * Seed data for the "How It Works" section.
- */
 export const howItWorksSteps: HowItWorksStep[] = [
   {
     id: 'search',
@@ -12,9 +9,15 @@ export const howItWorksSteps: HowItWorksStep[] = [
     icon: Search,
   },
   {
-    id: 'verified',
-    title: 'Verified professionals',
+    id: 'choose',
+    title: 'Choose a professional',
     description: 'Every expert is background-checked and rated by customers.',
     icon: UserCheck,
+  },
+  {
+    id: 'book',
+    title: 'Book & get it done',
+    description: 'Schedule at your convenience and track the progress.',
+    icon: CalendarCheck,
   },
 ]

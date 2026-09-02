@@ -1,8 +1,3 @@
-/**
- * SectionHeading
- * Reusable section title block. Deliberately minimal —
- * eyebrow/title/description styling will be added later.
- */
 interface SectionHeadingProps {
   eyebrow?: string
   title: string
@@ -15,10 +10,20 @@ export default function SectionHeading({
   description,
 }: SectionHeadingProps) {
   return (
-    <div>
-      {eyebrow && <span>{eyebrow}</span>}
-      <h2>{title}</h2>
-      {description && <p>{description}</p>}
+    <div className="text-center">
+      {eyebrow && (
+        <span className="text-primary text-sm font-semibold uppercase tracking-wider">
+          {eyebrow}
+        </span>
+      )}
+      <h2 className="mt-2 text-3xl font-bold tracking-tight text-heading sm:text-4xl">
+        {title}
+      </h2>
+      {description && (
+        <p className="mx-auto mt-3 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
+          {description}
+        </p>
+      )}
     </div>
   )
 }

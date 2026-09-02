@@ -1,4 +1,4 @@
-# Servexa — Frontend Developer Assessment
+# Servexa: Frontend Developer Assessment
 
 A responsive service platform homepage built as part of the Frontend Developer practical assessment for Web InfoTech Nepal.
 

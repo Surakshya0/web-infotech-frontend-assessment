@@ -10,7 +10,7 @@ export default function FeaturedServices() {
         <SectionHeading
           eyebrow="Our Services"
           title="Explore Top Services"
-          description="Find trusted professionals for your home, business, and digital needs — all in one place."
+          description="From home repairs to web design — compare, book, and get the job done."
         />
 
         <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">

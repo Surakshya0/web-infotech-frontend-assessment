@@ -11,8 +11,8 @@ export default function Cta() {
         </h2>
 
         <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-white/80 sm:text-lg">
-          Discover thousands of trusted professionals ready to help with your
-          home, business, and digital needs — all in one place.
+          Join thousands of customers who find the right expert for any task —
+          quickly, easily, and stress-free.
         </p>
 
         <div className="mt-8">

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Sparkles, TrendingUp } from 'lucide-react'
+import { ArrowRight, TrendingUp } from 'lucide-react'
 import Button from '../ui/Button'
 import Container from '../ui/Container'
 import SearchBar from '../ui/SearchBar'
@@ -9,24 +9,15 @@ export default function Hero() {
   const [query, setQuery] = useState('')
 
   return (
-    <section className="relative overflow-hidden bg-surface py-20 sm:py-24 lg:py-28">
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-primary/10 blur-3xl"
-      />
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute -bottom-24 -left-24 h-72 w-72 rounded-full bg-secondary/10 blur-3xl"
-      />
-
-      <Container className="relative text-center">
+    <section className="bg-surface py-20 sm:py-24 lg:py-28">
+      <Container className="text-center">
         <div className="animate-fade-up">
           <h1 className="mx-auto max-w-3xl text-4xl font-bold leading-tight tracking-tight text-heading sm:text-5xl lg:text-6xl">
             Find the right <span className="text-primary">service for you</span>
           </h1>
 
           <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
-            Discover trusted professionals and services for your everyday needs.
+            Connect with verified local experts for home, business, and digital services.
           </p>
 
           <div className="mx-auto mt-10 max-w-2xl">
@@ -57,7 +48,7 @@ export default function Hero() {
 
           <div className="mt-10">
             <Button size="lg">
-              <Sparkles size={18} />
+              <ArrowRight size={18} />
               Get Started
             </Button>
           </div>

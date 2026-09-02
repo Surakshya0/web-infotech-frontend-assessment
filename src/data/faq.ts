@@ -2,33 +2,27 @@ import type { FaqItem } from '../types'
 
 export const faqItems: FaqItem[] = [
   {
-    id: 'pay',
-    question: 'How do I pay for a service?',
+    id: 'what-services',
+    question: 'What services can I find on Servexa?',
     answer:
-      'You pay securely online when you book using a credit card, debit card or digital wallet. The payment is held safely and only released to the professional once the service is completed to your satisfaction.',
+      'Servexa connects you with a wide range of professionals across home maintenance, digital services, design, IT support, and more. Whether you need a plumber, a web developer, or a graphic designer, you will find verified experts ready to help.',
   },
   {
-    id: 'cancel',
-    question: 'Can I cancel or reschedule a booking?',
+    id: 'how-to-find',
+    question: 'How do I find a service?',
     answer:
-      'Yes. You can cancel or reschedule a booking free of charge up to 24 hours before the scheduled start time. Late cancellations may be subject to a small fee depending on the provider’s policy.',
+      'Simply type what you are looking for into the search bar on our homepage. You can also browse by category or check out our featured services. Each listing includes reviews, pricing, and details to help you choose the right professional.',
   },
   {
-    id: 'verified',
-    question: 'How are professionals verified?',
+    id: 'mobile',
+    question: 'Can I use Servexa on my phone?',
     answer:
-      'Every professional completes an identity check and is approved by our team before they can offer services. We also collect genuine customer reviews after every completed job to help you choose with confidence.',
+      'Yes. Servexa is fully responsive and works great on any device. You can browse, book, and manage services directly from your phone or tablet without downloading an app.',
   },
   {
-    id: 'refund',
-    question: 'What if I’m not happy with the service?',
+    id: 'getting-started',
+    question: 'How do I get started?',
     answer:
-      'Your satisfaction is our priority. If a service is not delivered as described, contact our support team within 7 days and we will help arrange a fix or a full refund through our satisfaction guarantee.',
-  },
-  {
-    id: 'business',
-    question: 'Do you offer services for businesses?',
-    answer:
-      'Absolutely. We offer corporate accounts with bulk hiring, dedicated account managers, invoicing and flexible payment terms for companies of all sizes. Contact our business team to get started.',
+      'Getting started is easy. Create a free account, search for the service you need, and book directly online. You can compare professionals, read reviews, and schedule at a time that works for you — all in just a few clicks.',
   },
 ]

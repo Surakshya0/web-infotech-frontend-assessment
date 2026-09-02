@@ -1,6 +1,6 @@
 import type { ButtonHTMLAttributes, ReactNode } from 'react'
 
-type Variant = 'primary' | 'secondary' | 'ghost'
+type Variant = 'primary' | 'secondary' | 'ghost' | 'white'
 type Size = 'sm' | 'md' | 'lg'
 
 const baseClasses =
@@ -11,6 +11,7 @@ const variantClasses: Record<Variant, string> = {
   secondary:
     'bg-surface-alt text-heading border border-slate-200 hover:bg-surface',
   ghost: 'text-body hover:text-primary hover:bg-surface-alt/60',
+  white: 'bg-white text-primary hover:bg-white/90',
 }
 
 const sizeClasses: Record<Size, string> = {

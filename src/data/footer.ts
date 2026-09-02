@@ -1,8 +1,12 @@
-import type { FooterColumn } from '../types'
+import type { NavLink, FooterColumn } from '../types'
 
-/**
- * Seed data for the footer link columns.
- */
+export const footerNav: NavLink[] = [
+  { label: 'Home', href: '#' },
+  { label: 'Services', href: '#services' },
+  { label: 'About', href: '#' },
+  { label: 'Contact', href: '#' },
+]
+
 export const footerColumns: FooterColumn[] = [
   {
     title: 'Services',
@@ -14,7 +18,7 @@ export const footerColumns: FooterColumn[] = [
   {
     title: 'Company',
     links: [
-      { label: 'About us', href: '#' },
+      { label: 'About', href: '#' },
       { label: 'Contact', href: '#' },
     ],
   },

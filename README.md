@@ -6,6 +6,15 @@ A responsive service platform homepage built as part of the Frontend Developer p
 
 https://web-infotech-frontend-assessment.vercel.app/
 
+## Screenshots
+
+![Screenshot 1](public/screenshot-1.png)
+![Screenshot 2](public/screenshot-2.png)
+![Screenshot 3](public/screenshot-3.png)
+![Screenshot 4](public/screenshot-4.png)
+![Screenshot 5](public/screenshot-5.png)
+![Screenshot 6](public/screenshot-6.png)
+
 ## Tech Stack
 
 - React 19

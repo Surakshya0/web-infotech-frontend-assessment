@@ -64,17 +64,15 @@ src/
 └── App.tsx
 ```
 
-## Technical Approach
+## Technical Explanation
 
-The page is built using reusable React components, with shared UI elements separated from page-specific sections.
+The project uses React 19 with TypeScript and Vite for fast builds, Tailwind CSS v4 for responsive styling, and Lucide React for icons.
 
-Content such as services, navigation items, FAQs, and footer links is kept in separate data files to make the components easier to maintain and update.
+All service data is static/local with no backend required.
 
-Tailwind CSS is used for responsive layouts and styling across desktop, tablet, and mobile breakpoints.
+Interactive features include search with autocomplete, a services mega menu, mobile navigation, and a FAQ accordion.
 
-The page includes interactive functionality such as service search with autocomplete, mobile navigation, and an expandable FAQ accordion.
-
-The assessment uses static/local data and does not require a backend or external API.
+Components are split into reusable UI primitives (`src/components/ui/`) and page-level sections (`src/components/sections/`) to keep the codebase clean and maintainable.
 
 ## Running Locally
 
